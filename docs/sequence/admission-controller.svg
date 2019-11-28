@@ -1,0 +1,494 @@
+<svg id="mermaid-1574910006610" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:1250px;" viewBox="-50 -10 1250 3324.333320617676"><rect x="40" y="2928.3333225250244" fill="rgb(177,255,200)" width="470" height="253.33333206176758" class="rect"></rect><rect x="260" y="2606.6666564941406" fill="rgb(200,177,255)" width="450" height="276.6666660308838" class="rect"></rect><rect x="260" y="2186.6666584014893" fill="rgb(177,200,255)" width="700" height="339.99999809265137" class="rect"></rect><rect x="40" y="1878.3333263397217" fill="rgb(177,255,200)" width="470" height="253.33333206176758" class="rect"></rect><rect x="260" y="1594.999994277954" fill="rgb(255,177,200)" width="850" height="253.33333206176758" class="rect"></rect><rect x="260" y="1149.9999961853027" fill="rgb(177,200,255)" width="700" height="339.99999809265137" class="rect"></rect><rect x="260" y="851.6666641235352" fill="rgb(255,177,200)" width="850" height="253.33333206176758" class="rect"></rect><rect x="260" y="529.9999980926514" fill="rgb(177,200,255)" width="650" height="206.6666660308838" class="rect"></rect><rect x="260" y="145" fill="rgb(200,177,255)" width="500" height="339.99999809265137" class="rect"></rect><style>
+
+
+
+#mermaid-1574910006610 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  color: #333; }
+
+#mermaid-1574910006610 .label text {
+  fill: #333; }
+
+#mermaid-1574910006610 .node rect,
+#mermaid-1574910006610 .node circle,
+#mermaid-1574910006610 .node ellipse,
+#mermaid-1574910006610 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1574910006610 .node .label {
+  text-align: center; }
+
+#mermaid-1574910006610 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1574910006610 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1574910006610 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1574910006610 .edgeLabel {
+  background-color: #e8e8e8;
+  text-align: center; }
+
+#mermaid-1574910006610 .cluster rect {
+  fill: #ffffde;
+  stroke: #aaaa33;
+  stroke-width: 1px; }
+
+#mermaid-1574910006610 .cluster text {
+  fill: #333; }
+
+#mermaid-1574910006610 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1574910006610 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1574910006610 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1574910006610 .actor-line {
+  stroke: grey; }
+
+#mermaid-1574910006610 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1574910006610 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1574910006610 #arrowhead {
+  fill: #333; }
+
+#mermaid-1574910006610 .sequenceNumber {
+  fill: white; }
+
+#mermaid-1574910006610 #sequencenumber {
+  fill: #333; }
+
+#mermaid-1574910006610 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1574910006610 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1574910006610 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1574910006610 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1574910006610 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1574910006610 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1574910006610 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1574910006610 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 14px; }
+
+#mermaid-1574910006610 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1574910006610 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1574910006610 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1574910006610 .mermaid-main-font {
+  font-family: "trebuchet ms", verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1574910006610 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1574910006610 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1574910006610 .section2 {
+  fill: #fff400; }
+
+#mermaid-1574910006610 .section1,
+#mermaid-1574910006610 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1574910006610 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1574910006610 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1574910006610 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1574910006610 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1574910006610 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+
+#mermaid-1574910006610 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+#mermaid-1574910006610   .grid .tick text {
+    font-family: 'trebuchet ms', verdana, arial;
+    font-family: var(--mermaid-font-family); }
+
+#mermaid-1574910006610 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1574910006610 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1574910006610 .task {
+  stroke-width: 2; }
+
+#mermaid-1574910006610 .taskText {
+  text-anchor: middle;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1574910006610 .taskText:not([font-size]) {
+  font-size: 11px; }
+
+#mermaid-1574910006610 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1574910006610 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1574910006610 .task.clickable {
+  cursor: pointer; }
+
+#mermaid-1574910006610 .taskText.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1574910006610 .taskTextOutsideLeft.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1574910006610 .taskTextOutsideRight.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+
+#mermaid-1574910006610 .taskText0,
+#mermaid-1574910006610 .taskText1,
+#mermaid-1574910006610 .taskText2,
+#mermaid-1574910006610 .taskText3 {
+  fill: white; }
+
+#mermaid-1574910006610 .task0,
+#mermaid-1574910006610 .task1,
+#mermaid-1574910006610 .task2,
+#mermaid-1574910006610 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1574910006610 .taskTextOutside0,
+#mermaid-1574910006610 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1574910006610 .taskTextOutside1,
+#mermaid-1574910006610 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1574910006610 .active0,
+#mermaid-1574910006610 .active1,
+#mermaid-1574910006610 .active2,
+#mermaid-1574910006610 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1574910006610 .activeText0,
+#mermaid-1574910006610 .activeText1,
+#mermaid-1574910006610 .activeText2,
+#mermaid-1574910006610 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1574910006610 .done0,
+#mermaid-1574910006610 .done1,
+#mermaid-1574910006610 .done2,
+#mermaid-1574910006610 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1574910006610 .doneText0,
+#mermaid-1574910006610 .doneText1,
+#mermaid-1574910006610 .doneText2,
+#mermaid-1574910006610 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1574910006610 .crit0,
+#mermaid-1574910006610 .crit1,
+#mermaid-1574910006610 .crit2,
+#mermaid-1574910006610 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1574910006610 .activeCrit0,
+#mermaid-1574910006610 .activeCrit1,
+#mermaid-1574910006610 .activeCrit2,
+#mermaid-1574910006610 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1574910006610 .doneCrit0,
+#mermaid-1574910006610 .doneCrit1,
+#mermaid-1574910006610 .doneCrit2,
+#mermaid-1574910006610 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1574910006610 .milestone {
+  transform: rotate(45deg) scale(0.8, 0.8); }
+
+#mermaid-1574910006610 .milestoneText {
+  font-style: italic; }
+
+#mermaid-1574910006610 .doneCritText0,
+#mermaid-1574910006610 .doneCritText1,
+#mermaid-1574910006610 .doneCritText2,
+#mermaid-1574910006610 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1574910006610 .activeCritText0,
+#mermaid-1574910006610 .activeCritText1,
+#mermaid-1574910006610 .activeCritText2,
+#mermaid-1574910006610 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1574910006610 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1574910006610 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 10px; }
+#mermaid-1574910006610   g.classGroup text .title {
+    font-weight: bolder; }
+
+#mermaid-1574910006610 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1574910006610 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1574910006610 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1574910006610 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1574910006610 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1574910006610 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1574910006610 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1574910006610 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1574910006610 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1574910006610 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1574910006610 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1574910006610 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1574910006610 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1574910006610 .commit-id,
+#mermaid-1574910006610 .commit-msg,
+#mermaid-1574910006610 .branch-label {
+  fill: lightgrey;
+  color: lightgrey;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1574910006610 .pieTitleText {
+  text-anchor: middle;
+  font-size: 25px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1574910006610 .slice {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1574910006610 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1574910006610 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px; }
+
+#mermaid-1574910006610 g.stateGroup .state-title {
+  font-weight: bolder;
+  fill: black; }
+
+#mermaid-1574910006610 g.stateGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1574910006610 g.stateGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1574910006610 .transition {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1574910006610 .stateGroup .composit {
+  fill: white;
+  border-bottom: 1px; }
+
+#mermaid-1574910006610 .state-note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+#mermaid-1574910006610   .state-note text {
+    fill: black;
+    stroke: none;
+    font-size: 10px; }
+
+#mermaid-1574910006610 .stateLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1574910006610 .stateLabel text {
+  fill: black;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+:root {
+  --mermaid-font-family: '"trebuchet ms", verdana, arial';
+  --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive; }
+
+:root { --mermaid-font-family: "trebuchet ms", verdana, arial;}</style><style>#mermaid-1574910006610 {
+    color: rgb(0, 0, 0);
+    font: ;
+  }</style><g></g><g><line id="actor9784" x1="75" y1="5" x2="75" y2="3313.333320617676" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="75" dy="0">juju</tspan></text></g><g><line id="actor9785" x1="275" y1="5" x2="275" y2="3313.333320617676" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="275" dy="0">juju_dac</tspan></text></g><g><line id="actor9786" x1="475" y1="5" x2="475" y2="3313.333320617676" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="400" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="32.5" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="475" dy="0">k8s</tspan></text></g><g><line id="actor9787" x1="675" y1="5" x2="675" y2="3313.333320617676" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="600" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="32.5" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="675" dy="0">charm</tspan></text></g><g><line id="actor9788" x1="875" y1="5" x2="875" y2="3313.333320617676" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="800" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="32.5" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="875" dy="0">operator</tspan></text></g><g><line id="actor9789" x1="1075" y1="5" x2="1075" y2="3313.333320617676" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="1000" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1075" y="32.5" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="1075" dy="0">cr_charm</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" style="stroke-dasharray: 0px, 0px;" stroke-width="1px" d="M 9,2 V 6 L16,4 Z"></path><path fill="none" stroke="#000000" style="stroke-dasharray: 0px, 0px;" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7"></path></marker></defs><defs><marker id="sequencenumber" refX="15" refY="15" markerWidth="60" markerHeight="40" orient="auto"><circle cx="15" cy="15" r="6"></circle></marker></defs><g><rect x="70" y="67" fill="#EDF2AE" stroke="#666" width="10" height="3161.333320617676" rx="0" ry="0" class="activation0"></rect></g><g><text x="377.5" y="93" style="text-anchor: middle;" class="messageText">deploy cs:redis-k8s-operator</text><line x1="80" y1="100" x2="675" y2="100" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><rect x="670" y="102" fill="#EDF2AE" stroke="#666" width="10" height="3079.666654586792" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="128" style="text-anchor: middle;" class="messageText">hook install</text><line x1="80" y1="135" x2="670" y2="135" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><rect x="450" y="165" fill="#EDF2AE" stroke="#666" width="250" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="446" y="189" class="noteText"><tspan x="466">Charm/Uniter Service Account</tspan></text></g><g><text x="572.5" y="229.6666660308838" style="text-anchor: middle;" class="messageText">kubectl create -f</text><line x1="670" y1="236.6666660308838" x2="475" y2="236.6666660308838" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="470" y="238.6666660308838" fill="#EDF2AE" stroke="#666" width="10" height="236.33333206176758" rx="0" ry="0" class="activation0"></rect></g><g><rect x="600" y="246.6666660308838" fill="#EDF2AE" stroke="#666" width="150" height="53.33333206176758" rx="0" ry="0" class="note"></rect><text x="596" y="270.6666660308838" class="noteText"><tspan x="616">Create operator with</tspan></text><text x="596" y="287.3333320617676" class="noteText"><tspan x="616">dependencies</tspan></text></g><g><text x="372.5" y="327.99999809265137" style="text-anchor: middle;" class="messageText">create Deployment</text><line x1="470" y1="334.99999809265137" x2="275" y2="334.99999809265137" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="336.99999809265137" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="362.99999809265137" style="text-anchor: middle;" class="messageText">Deployment</text><line x1="280" y1="369.99999809265137" x2="470" y2="369.99999809265137" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="372.5" y="397.99999809265137" style="text-anchor: middle;" class="messageText">create ServiceAccount</text><line x1="470" y1="404.99999809265137" x2="275" y2="404.99999809265137" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="406.99999809265137" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="432.99999809265137" style="text-anchor: middle;" class="messageText">ServiceAccount</text><line x1="280" y1="439.99999809265137" x2="470" y2="439.99999809265137" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="575" y="467.99999809265137" style="text-anchor: middle;" class="messageText">success</text><line x1="480" y1="474.99999809265137" x2="670" y2="474.99999809265137" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="675" y="512.9999980926514" style="text-anchor: middle;" class="messageText">Deployment creates Pod</text><line x1="475" y1="519.9999980926514" x2="875" y2="519.9999980926514" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><rect x="870" y="521.9999980926514" fill="#EDF2AE" stroke="#666" width="10" height="2396.333324432373" rx="0" ry="0" class="activation0"></rect></g><g><rect x="450" y="549.9999980926514" fill="#EDF2AE" stroke="#666" width="450" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="446" y="573.9999980926514" class="noteText"><tspan x="466">Operator Service Account</tspan></text></g><g><text x="672.5" y="614.6666641235352" style="text-anchor: middle;" class="messageText">kubectl create -f</text><line x1="870" y1="621.6666641235352" x2="475" y2="621.6666641235352" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="470" y="623.6666641235352" fill="#EDF2AE" stroke="#666" width="10" height="103" rx="0" ry="0" class="activation0"></rect></g><g><text x="372.5" y="649.6666641235352" style="text-anchor: middle;" class="messageText">create CRD</text><line x1="470" y1="656.6666641235352" x2="275" y2="656.6666641235352" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="658.6666641235352" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="684.6666641235352" style="text-anchor: middle;" class="messageText">CRD</text><line x1="280" y1="691.6666641235352" x2="470" y2="691.6666641235352" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="675" y="719.6666641235352" style="text-anchor: middle;" class="messageText">success</text><line x1="480" y1="726.6666641235352" x2="870" y2="726.6666641235352" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="577.5" y="764.6666641235352" style="text-anchor: middle;" class="messageText">deploy cs:redis-k8s cachedb</text><line x1="80" y1="771.6666641235352" x2="1075" y2="771.6666641235352" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><rect x="1070" y="773.6666641235352" fill="#EDF2AE" stroke="#666" width="10" height="1367.999994277954" rx="0" ry="0" class="activation0"></rect></g><g><text x="575" y="799.6666641235352" style="text-anchor: middle;" class="messageText">relate cachedb redis-k8s-operator</text><line x1="80" y1="806.6666641235352" x2="1070" y2="806.6666641235352" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><text x="575" y="834.6666641235352" style="text-anchor: middle;" class="messageText">hook crd-relation-joined</text><line x1="80" y1="841.6666641235352" x2="1070" y2="841.6666641235352" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><rect x="450" y="871.6666641235352" fill="#EDF2AE" stroke="#666" width="650" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="446" y="895.6666641235352" class="noteText"><tspan x="466">CR Charm/Uniter Service Account</tspan></text></g><g><text x="772.5" y="936.333330154419" style="text-anchor: middle;" class="messageText">kubectl create -f</text><line x1="1070" y1="943.333330154419" x2="475" y2="943.333330154419" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="470" y="945.333330154419" fill="#EDF2AE" stroke="#666" width="10" height="149.6666660308838" rx="0" ry="0" class="activation0"></rect></g><g><rect x="600" y="953.333330154419" fill="#EDF2AE" stroke="#666" width="150" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="596" y="977.333330154419" class="noteText"><tspan x="616">Create CR</tspan></text></g><g><text x="372.5" y="1017.9999961853027" style="text-anchor: middle;" class="messageText">create Redis</text><line x1="470" y1="1024.9999961853027" x2="275" y2="1024.9999961853027" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="1026.9999961853027" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="1052.9999961853027" style="text-anchor: middle;" class="messageText">Redis</text><line x1="280" y1="1059.9999961853027" x2="470" y2="1059.9999961853027" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="775" y="1087.9999961853027" style="text-anchor: middle;" class="messageText">success</text><line x1="480" y1="1094.9999961853027" x2="1070" y2="1094.9999961853027" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="672.5" y="1132.9999961853027" style="text-anchor: middle;" class="messageText">Redis created</text><line x1="475" y1="1139.9999961853027" x2="870" y2="1139.9999961853027" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><rect x="450" y="1169.9999961853027" fill="#EDF2AE" stroke="#666" width="450" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="446" y="1193.9999961853027" class="noteText"><tspan x="466">Operator Service Account</tspan></text></g><g><text x="672.5" y="1234.6666622161865" style="text-anchor: middle;" class="messageText">kubectl create -f</text><line x1="870" y1="1241.6666622161865" x2="475" y2="1241.6666622161865" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="470" y="1243.6666622161865" fill="#EDF2AE" stroke="#666" width="10" height="236.33333206176758" rx="0" ry="0" class="activation0"></rect></g><g><rect x="800" y="1251.6666622161865" fill="#EDF2AE" stroke="#666" width="150" height="53.33333206176758" rx="0" ry="0" class="note"></rect><text x="796" y="1275.6666622161865" class="noteText"><tspan x="816">Create Redis</tspan></text><text x="796" y="1292.3333282470703" class="noteText"><tspan x="816">instance</tspan></text></g><g><text x="372.5" y="1332.999994277954" style="text-anchor: middle;" class="messageText">create StatefulSet</text><line x1="470" y1="1339.999994277954" x2="275" y2="1339.999994277954" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="1341.999994277954" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="1367.999994277954" style="text-anchor: middle;" class="messageText">StatefulSet</text><line x1="280" y1="1374.999994277954" x2="470" y2="1374.999994277954" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="372.5" y="1402.999994277954" style="text-anchor: middle;" class="messageText">create Service</text><line x1="470" y1="1409.999994277954" x2="275" y2="1409.999994277954" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="1411.999994277954" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="1437.999994277954" style="text-anchor: middle;" class="messageText">Service</text><line x1="280" y1="1444.999994277954" x2="470" y2="1444.999994277954" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="675" y="1472.999994277954" style="text-anchor: middle;" class="messageText">success</text><line x1="480" y1="1479.999994277954" x2="870" y2="1479.999994277954" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="575" y="1517.999994277954" style="text-anchor: middle;" class="messageText">remove-application cachedb</text><line x1="80" y1="1524.999994277954" x2="1070" y2="1524.999994277954" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><text x="575" y="1552.999994277954" style="text-anchor: middle;" class="messageText">hook crd-relation-departed</text><line x1="80" y1="1559.999994277954" x2="1070" y2="1559.999994277954" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><rect x="450" y="1614.999994277954" fill="#EDF2AE" stroke="#666" width="650" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="446" y="1638.999994277954" class="noteText"><tspan x="466">CR Charm/Uniter Service Account</tspan></text></g><g><text x="772.5" y="1679.666660308838" style="text-anchor: middle;" class="messageText">kubectl delete -f</text><line x1="1070" y1="1686.666660308838" x2="475" y2="1686.666660308838" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="470" y="1688.666660308838" fill="#EDF2AE" stroke="#666" width="10" height="149.6666660308838" rx="0" ry="0" class="activation0"></rect></g><g><rect x="600" y="1696.666660308838" fill="#EDF2AE" stroke="#666" width="150" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="596" y="1720.666660308838" class="noteText"><tspan x="616">Delete CR</tspan></text></g><g><text x="372.5" y="1761.3333263397217" style="text-anchor: middle;" class="messageText">delete Redis</text><line x1="470" y1="1768.3333263397217" x2="275" y2="1768.3333263397217" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="1770.3333263397217" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="1796.3333263397217" style="text-anchor: middle;" class="messageText">Redis</text><line x1="280" y1="1803.3333263397217" x2="470" y2="1803.3333263397217" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="775" y="1831.3333263397217" style="text-anchor: middle;" class="messageText">success</text><line x1="480" y1="1838.3333263397217" x2="1070" y2="1838.3333263397217" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><rect x="50" y="1898.3333263397217" fill="#EDF2AE" stroke="#666" width="450" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="46" y="1922.3333263397217" class="noteText"><tspan x="66">Controller Credentials</tspan></text></g><g><text x="277.5" y="1962.9999923706055" style="text-anchor: middle;" class="messageText">delete CR</text><line x1="80" y1="1969.9999923706055" x2="475" y2="1969.9999923706055" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="470" y="1971.9999923706055" fill="#EDF2AE" stroke="#666" width="10" height="149.6666660308838" rx="0" ry="0" class="activation0"></rect></g><g><rect x="50" y="1979.9999923706055" fill="#EDF2AE" stroke="#666" width="450" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="46" y="2003.9999923706055" class="noteText"><tspan x="66">Delete dangling resources</tspan></text></g><g><text x="372.5" y="2044.6666584014893" style="text-anchor: middle;" class="messageText">delete Redis</text><line x1="470" y1="2051.6666584014893" x2="275" y2="2051.6666584014893" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="2053.6666584014893" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="2079.6666584014893" style="text-anchor: middle;" class="messageText">Redis</text><line x1="280" y1="2086.6666584014893" x2="470" y2="2086.6666584014893" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="275" y="2114.6666584014893" style="text-anchor: middle;" class="messageText">success</text><line x1="470" y1="2121.6666584014893" x2="80" y2="2121.6666584014893" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><line x1="30" y1="1569.999994277954" x2="1120" y2="1569.999994277954" class="loopLine"></line><line x1="1120" y1="1569.999994277954" x2="1120" y2="2141.6666584014893" class="loopLine"></line><line x1="30" y1="2141.6666584014893" x2="1120" y2="2141.6666584014893" class="loopLine"></line><line x1="30" y1="1569.999994277954" x2="30" y2="2141.6666584014893" class="loopLine"></line><line x1="30" y1="1858.3333263397217" x2="1120" y2="1858.3333263397217" class="loopLine" style="stroke-dasharray: 3px, 3px;"></line><polygon points="30,1569.999994277954 80,1569.999994277954 80,1582.999994277954 71.6,1589.999994277954 30,1589.999994277954" class="labelBox"></polygon><text x="37.5" y="1584.999994277954" class="labelText"><tspan x="37.5">alt</tspan></text><text x="575" y="1584.999994277954" style="text-anchor: middle;" class="loopText"><tspan x="575">[ graceful cleanup ]</tspan></text><text x="575" y="1873.3333263397217" style="text-anchor: middle;" class="loopText"><tspan x="575">[ dangling resources ]</tspan></text></g><g><text x="672.5" y="2169.6666584014893" style="text-anchor: middle;" class="messageText">Redis deleted</text><line x1="475" y1="2176.6666584014893" x2="870" y2="2176.6666584014893" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><rect x="450" y="2206.6666584014893" fill="#EDF2AE" stroke="#666" width="450" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="446" y="2230.6666584014893" class="noteText"><tspan x="466">Operator Service Account</tspan></text></g><g><text x="672.5" y="2271.333324432373" style="text-anchor: middle;" class="messageText">kubectl delete -f</text><line x1="870" y1="2278.333324432373" x2="475" y2="2278.333324432373" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="470" y="2280.333324432373" fill="#EDF2AE" stroke="#666" width="10" height="236.33333206176758" rx="0" ry="0" class="activation0"></rect></g><g><rect x="800" y="2288.333324432373" fill="#EDF2AE" stroke="#666" width="150" height="53.33333206176758" rx="0" ry="0" class="note"></rect><text x="796" y="2312.333324432373" class="noteText"><tspan x="816">Delete Redis</tspan></text><text x="796" y="2328.999990463257" class="noteText"><tspan x="816">instance</tspan></text></g><g><text x="372.5" y="2369.6666564941406" style="text-anchor: middle;" class="messageText">delete StatefulSet</text><line x1="470" y1="2376.6666564941406" x2="275" y2="2376.6666564941406" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="2378.6666564941406" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="2404.6666564941406" style="text-anchor: middle;" class="messageText">StatefulSet</text><line x1="280" y1="2411.6666564941406" x2="470" y2="2411.6666564941406" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="372.5" y="2439.6666564941406" style="text-anchor: middle;" class="messageText">delete Service</text><line x1="470" y1="2446.6666564941406" x2="275" y2="2446.6666564941406" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="2448.6666564941406" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="2474.6666564941406" style="text-anchor: middle;" class="messageText">Service</text><line x1="280" y1="2481.6666564941406" x2="470" y2="2481.6666564941406" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="675" y="2509.6666564941406" style="text-anchor: middle;" class="messageText">success</text><line x1="480" y1="2516.6666564941406" x2="870" y2="2516.6666564941406" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="577.5" y="2554.6666564941406" style="text-anchor: middle;" class="messageText">remove-application redis-k8s-operator</text><line x1="80" y1="2561.6666564941406" x2="1075" y2="2561.6666564941406" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><text x="577.5" y="2589.6666564941406" style="text-anchor: middle;" class="messageText">hook stop</text><line x1="80" y1="2596.6666564941406" x2="1075" y2="2596.6666564941406" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><rect x="450" y="2626.6666564941406" fill="#EDF2AE" stroke="#666" width="250" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="446" y="2650.6666564941406" class="noteText"><tspan x="466">Charm/Uniter Service Account</tspan></text></g><g><text x="572.5" y="2691.3333225250244" style="text-anchor: middle;" class="messageText">kubectl delete -f</text><line x1="670" y1="2698.3333225250244" x2="475" y2="2698.3333225250244" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="470" y="2700.3333225250244" fill="#EDF2AE" stroke="#666" width="10" height="173" rx="0" ry="0" class="activation0"></rect></g><g><text x="372.5" y="2726.3333225250244" style="text-anchor: middle;" class="messageText">delete Deployment</text><line x1="470" y1="2733.3333225250244" x2="275" y2="2733.3333225250244" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="2735.3333225250244" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="2761.3333225250244" style="text-anchor: middle;" class="messageText">Deployment</text><line x1="280" y1="2768.3333225250244" x2="470" y2="2768.3333225250244" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="372.5" y="2796.3333225250244" style="text-anchor: middle;" class="messageText">delete ServiceAccount</text><line x1="470" y1="2803.3333225250244" x2="275" y2="2803.3333225250244" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="2805.3333225250244" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="2831.3333225250244" style="text-anchor: middle;" class="messageText">ServiceAccount</text><line x1="280" y1="2838.3333225250244" x2="470" y2="2838.3333225250244" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="575" y="2866.3333225250244" style="text-anchor: middle;" class="messageText">success</text><line x1="480" y1="2873.3333225250244" x2="670" y2="2873.3333225250244" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="672.5" y="2911.3333225250244" style="text-anchor: middle;" class="messageText">Pod deleted</text><line x1="475" y1="2918.3333225250244" x2="870" y2="2918.3333225250244" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#crosshead)"></line></g><g><rect x="50" y="2948.3333225250244" fill="#EDF2AE" stroke="#666" width="450" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="46" y="2972.3333225250244" class="noteText"><tspan x="66">Controller Credentials</tspan></text></g><g><text x="277.5" y="3012.999988555908" style="text-anchor: middle;" class="messageText">delete CRD</text><line x1="80" y1="3019.999988555908" x2="475" y2="3019.999988555908" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="470" y="3021.999988555908" fill="#EDF2AE" stroke="#666" width="10" height="149.6666660308838" rx="0" ry="0" class="activation0"></rect></g><g><rect x="50" y="3029.999988555908" fill="#EDF2AE" stroke="#666" width="450" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="46" y="3053.999988555908" class="noteText"><tspan x="66">Delete dangling resources</tspan></text></g><g><text x="372.5" y="3094.666654586792" style="text-anchor: middle;" class="messageText">delete CRD</text><line x1="470" y1="3101.666654586792" x2="275" y2="3101.666654586792" class="messageLine0" stroke-width="2" stroke="black" style="fill: none;" marker-end="url(#arrowhead)"></line></g><g><rect x="270" y="3103.666654586792" fill="#EDF2AE" stroke="#666" width="10" height="33" rx="0" ry="0" class="activation0"></rect></g><g><text x="375" y="3129.666654586792" style="text-anchor: middle;" class="messageText">CRD</text><line x1="280" y1="3136.666654586792" x2="470" y2="3136.666654586792" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><text x="275" y="3164.666654586792" style="text-anchor: middle;" class="messageText">success</text><line x1="470" y1="3171.666654586792" x2="80" y2="3171.666654586792" style="stroke-dasharray: 3px, 3px; fill: none;" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)"></line></g><g><rect x="0" y="3191.666654586792" fill="#EDF2AE" stroke="#666" width="150" height="36.66666603088379" rx="0" ry="0" class="note"></rect><text x="-4" y="3215.666654586792" class="noteText"><tspan x="16">Done</tspan></text></g><g><rect x="0" y="3248.333320617676" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="3280.833320617676" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="75" dy="0">juju</tspan></text></g><g><rect x="200" y="3248.333320617676" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="3280.833320617676" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="275" dy="0">juju_dac</tspan></text></g><g><rect x="400" y="3248.333320617676" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="475" y="3280.833320617676" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="475" dy="0">k8s</tspan></text></g><g><rect x="600" y="3248.333320617676" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="675" y="3280.833320617676" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="675" dy="0">charm</tspan></text></g><g><rect x="800" y="3248.333320617676" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="875" y="3280.833320617676" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="875" dy="0">operator</tspan></text></g><g><rect x="1000" y="3248.333320617676" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="1075" y="3280.833320617676" style="text-anchor: middle;" dominant-baseline="central" alignment-baseline="central" class="actor"><tspan x="1075" dy="0">cr_charm</tspan></text></g></svg>

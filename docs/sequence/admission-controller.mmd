@@ -1,0 +1,110 @@
+sequenceDiagram
+    participant juju
+    participant juju_dac
+    participant k8s
+    participant charm
+    participant operator
+    participant cr_charm
+    activate juju
+    juju-xcharm: deploy cs:redis-k8s-operator
+    activate charm
+    juju-xcharm: hook install
+    rect rgb(200,177,255)
+    Note over k8s,charm: Charm/Uniter Service Account
+    charm->>+k8s: kubectl create -f
+    Note over charm: Create operator with</br>dependencies
+    k8s->>+juju_dac: create Deployment
+    juju_dac-->>-k8s: Deployment
+    k8s->>+juju_dac: create ServiceAccount
+    juju_dac-->>-k8s: ServiceAccount
+    k8s-->>-charm: success
+    end
+    k8s-xoperator: Deployment creates Pod
+    activate operator
+    rect rgb(177,200,255)
+    Note over k8s,operator: Operator Service Account
+    operator->>+k8s: kubectl create -f
+    k8s->>+juju_dac: create CRD
+    juju_dac-->>-k8s: CRD
+    k8s-->>-operator: success
+    end
+    juju-xcr_charm: deploy cs:redis-k8s cachedb
+    activate cr_charm
+    juju-xcr_charm: relate cachedb redis-k8s-operator
+    juju-xcr_charm: hook crd-relation-joined
+    rect rgb(255,177,200)
+    Note over k8s,cr_charm: CR Charm/Uniter Service Account
+    cr_charm->>+k8s: kubectl create -f
+    Note over charm: Create CR
+    k8s->>+juju_dac: create Redis
+    juju_dac-->>-k8s: Redis
+    k8s-->>-cr_charm: success
+    end
+    k8s-xoperator: Redis created
+    rect rgb(177,200,255)
+    Note over k8s,operator: Operator Service Account
+    operator->>+k8s: kubectl create -f
+    Note over operator: Create Redis</br>instance
+    k8s->>+juju_dac: create StatefulSet
+    juju_dac-->>-k8s: StatefulSet
+    k8s->>+juju_dac: create Service
+    juju_dac-->>-k8s: Service
+    k8s-->>-operator: success
+    end
+    juju-xcr_charm: remove-application cachedb
+    juju-xcr_charm: hook crd-relation-departed
+    alt graceful cleanup
+        rect rgb(255,177,200)
+        Note over k8s,cr_charm: CR Charm/Uniter Service Account
+        cr_charm->>+k8s: kubectl delete -f
+        Note over charm: Delete CR
+        k8s->>+juju_dac: delete Redis
+        juju_dac-->>-k8s: Redis
+        k8s-->>-cr_charm: success
+        end
+    else dangling resources
+        rect rgb(177,255,200)
+        Note over juju,k8s: Controller Credentials
+        juju->>+k8s: delete CR
+        Note over juju,k8s: Delete dangling resources
+        k8s->>+juju_dac: delete Redis
+        juju_dac-->>-k8s: Redis
+        k8s-->>-juju: success
+        end
+    end
+    deactivate cr_charm
+    k8s-xoperator: Redis deleted
+    rect rgb(177,200,255)
+    Note over k8s,operator: Operator Service Account
+    operator->>+k8s: kubectl delete -f
+    Note over operator: Delete Redis</br>instance
+    k8s->>+juju_dac: delete StatefulSet
+    juju_dac-->>-k8s: StatefulSet
+    k8s->>+juju_dac: delete Service
+    juju_dac-->>-k8s: Service
+    k8s-->>-operator: success
+    end
+    juju-xcr_charm: remove-application redis-k8s-operator
+    juju-xcr_charm: hook stop
+    rect rgb(200,177,255)
+    Note over k8s,charm: Charm/Uniter Service Account
+    charm->>+k8s: kubectl delete -f
+    k8s->>+juju_dac: delete Deployment
+    juju_dac-->>-k8s: Deployment
+    k8s->>+juju_dac: delete ServiceAccount
+    juju_dac-->>-k8s: ServiceAccount
+    k8s-->>-charm: success
+    end
+    k8s-xoperator: Pod deleted
+    deactivate operator
+    rect rgb(177,255,200)
+    Note over juju,k8s: Controller Credentials
+    juju->>+k8s: delete CRD
+    Note over juju,k8s: Delete dangling resources
+    k8s->>+juju_dac: delete CRD
+    juju_dac-->>-k8s: CRD
+    k8s-->>-juju: success
+    end
+    deactivate charm
+    Note over juju: Done
+    deactivate juju
